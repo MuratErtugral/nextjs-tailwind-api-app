@@ -1,0 +1,81 @@
+commit 9145599997c9767a8948c492f12f06aff6d5ddd2
+Author: Albertabrahams <halilibrahim.soyman@gmail.com>
+Date:   Tue Jul 5 13:07:51 2022 +0300
+
+    img edit
+
+ pages/detail/[id].js | 2 +-
+ pages/index.js       | 5 +++--
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+commit 3e469944e84f148ba7ae70b8833c74b47d4b3e16
+Author: Albertabrahams <halilibrahim.soyman@gmail.com>
+Date:   Tue Jul 5 12:56:42 2022 +0300
+
+    edit image
+
+ gitlog_history.txt   | 11 +++++++++++
+ pages/detail/[id].js |  2 +-
+ pages/index.js       |  2 +-
+ 3 files changed, 13 insertions(+), 2 deletions(-)
+
+commit 8dd6c0b0415647263699c021f80adc1764d568fb
+Author: Albertabrahams <halilibrahim.soyman@gmail.com>
+Date:   Tue Jul 5 12:52:26 2022 +0300
+
+    done
+
+ gitlog_history.txt   | 49 +++++++++++++++++++++++++++++++++++++++++++++++++
+ pages/detail/[id].js | 16 ++++++++--------
+ pages/index.js       | 41 ++++++++++++++++++++++++-----------------
+ 3 files changed, 81 insertions(+), 25 deletions(-)
+
+commit 9c3450987ba5ac2a3d4f0c93d86515921532391c
+Author: Albertabrahams <halilibrahim.soyman@gmail.com>
+Date:   Tue Jul 5 01:48:49 2022 +0300
+
+    Project ongoing
+
+ context/index.js     |  1 -
+ pages/_app.js        |  8 ++++----
+ pages/detail/[id].js | 14 +++++++++++++-
+ pages/index.js       |  8 +-------
+ 4 files changed, 18 insertions(+), 13 deletions(-)
+
+commit 3311da89540384a79e1f085b87a02793b884a546
+Author: Albertabrahams <halilibrahim.soyman@gmail.com>
+Date:   Mon Jul 4 23:57:02 2022 +0300
+
+    project start
+
+ context/index.js     |   26 ++
+ package-lock.json    | 1101 +++++++++++++++++++++++++++++++++++++++++++++++++-
+ package.json         |    6 +-
+ pages/_app.js        |    6 +
+ pages/detail/[id].js |   17 +
+ pages/index.js       |   99 ++---
+ postcss.config.js    |    6 +
+ styles/globals.css   |   19 +-
+ tailwind.config.js   |   11 +
+ 9 files changed, 1197 insertions(+), 94 deletions(-)
+
+commit b4d7cbf5e6482e40b33a77949ed4dece6b4530f0
+Author: Albertabrahams <halilibrahim.soyman@gmail.com>
+Date:   Mon Jul 4 18:22:08 2022 +0300
+
+    Initial commit from Create Next App
+
+ .eslintrc.json         |    3 +
+ .gitignore             |   32 +
+ README.md              |   34 +
+ next.config.js         |    6 +
+ package-lock.json      | 5054 ++++++++++++++++++++++++++++++++++++++++++++++++
+ package.json           |   20 +
+ pages/_app.js          |    7 +
+ pages/api/hello.js     |    5 +
+ pages/index.js         |   69 +
+ public/favicon.ico     |  Bin 0 -> 25931 bytes
+ public/vercel.svg      |    4 +
+ styles/Home.module.css |  116 ++
+ styles/globals.css     |   16 +
+ 13 files changed, 5366 insertions(+)
