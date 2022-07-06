@@ -24,12 +24,8 @@ export default function Home() {
       },
     }
   );
+  console.log(status)
   
-  // const HandleSearch = (e) => {
-  //   e.preventDefault()
-  
-  //   console.log(pageNum);
-  // }
 
   return (
     <div>
@@ -73,14 +69,6 @@ export default function Home() {
         </InfiniteScroll>
       )}
 
-{/* {page.map(item =>
-          <Link href={`/detail/${(item.id)}`} key={item.id}>
-            <div className="m-3 rounded border-2 flex flex-col items-center bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
-              <p className='font-serif font-bold p-1 text-xl m-1'>{item.name}</p>
-              <picture><img src={item.image} alt="foto" width="150px" height="100px" className='pb-2'/></picture>
-            </div>
-          </Link>
-        )} */}
       </div>
     </div>
   );
